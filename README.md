@@ -15,7 +15,17 @@
 A tool to align array or table
 
 # Table of Contents
-
+* [Installation](#installation)
+* [Usage](#usage)
+  + [Align an array](#align-an-array)
+  + [Align a table](#align-a-table)
+* [API](#api)
+  + [Align.alignLeft(indent, xs)](#alignalignleftindent-xs)
+  + [Align.alignRight(indent, xs)](#alignalignrightindent-xs)
+  + [Align.alignCenter(indent, xs)](#alignaligncenterindent-xs)
+  + [Align.alignTableL(xss)](#alignaligntablelxss)
+  + [Align.alignTableR(xs)](#alignaligntablerxs)
+  + [Align.alignTable(xs)](#alignaligntablexs)
 
 ## Installation
 
