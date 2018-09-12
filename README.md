@@ -73,26 +73,32 @@ const aligned = align.alignTableL(xss);
 ### Align.alignLeft(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
- Align an array of String to left.
+
+Align an array of String to left.
  
 ### Align.alignRight(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
- Align an array of String to right.
+
+Align an array of String to right.
  
 ### Align.alignCenter(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
- Align an array of String to center.
+
+Align an array of String to center.
  
 ### Align.alignTableL(xss)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
- Align each column to left.
+
+Align each column to left.
  
 ### Align.alignTableR(xs)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
-  Align each column to right.
+ 
+ Align each column to right.
  
 ### Align.alignTable(xs)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
-  Align each column to center.
+ 
+ Align each column to center.
