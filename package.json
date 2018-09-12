@@ -1,0 +1,38 @@
+{
+  "name": "aligns",
+  "version": "1.0.0",
+  "description": "align array or table(2D array)",
+  "main": "index.js",
+  "scripts": {
+    "hint": "eslint *.js test/*.test.js",
+    "test": "mocha test/*.test.js",
+    "cover": "NODE_ENV=test istanbul cover _mocha --report lcovonly -- --reporter spec  test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mike442144/aligns.git"
+  },
+  "keywords": [
+    "align",
+    "array",
+    "table",
+    "text"
+  ],
+  "author": "Mike Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike442144/aligns/issues"
+  },
+  "homepage": "https://github.com/mike442144/aligns#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1"
+  }
+}
