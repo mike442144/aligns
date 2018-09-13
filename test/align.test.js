@@ -68,7 +68,7 @@ describe('align', () => {
 			const str = 'hijklmkjjfkdlsj';
 			const indent = 4;
 			const strs = ['abc', 'abcdefg', str];
-			const aligned = align.alignRight(indent, strs);
+			const aligned = align.right(indent, strs);
 			
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0].length).to.eql(str.length+indent);
@@ -102,7 +102,7 @@ describe('align', () => {
 			const str = 'hijklmkjjfkdlsj';
 			const indent = 4;
 			const strs = ['abc', 'abcdefg', str];
-			const aligned = align.alignLeft(indent, strs);
+			const aligned = align.left(indent, strs);
 			
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0].length).to.eql(str.length+indent);
@@ -140,7 +140,7 @@ describe('align', () => {
 			const str = 'hijklmkjjfkdlsj';
 			const indent = 4;
 			const strs = ['abc', 'abcdefg', str];
-			const aligned = align.alignCenter(indent, strs);
+			const aligned = align.center(indent, strs);
 			
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0].length).to.eql(str.length+indent);
@@ -152,7 +152,7 @@ describe('align', () => {
 		const strss = [['John Smith','100'],['Mark','9090'],['Ora','9900']];
 		
 		it('should align left', () => {
-			const aligned = align.alignTableL(strss);
+			const aligned = align.tableL(strss);
 
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0][0].length).to.eql(strss[0][0].length);
@@ -165,7 +165,7 @@ describe('align', () => {
 		const strss = [['John Smith','100'],['Mark','9090'],['Ora','9900']];
 		
 		it('should align right', () => {
-			const aligned = align.alignTableR(strss);
+			const aligned = align.tableR(strss);
 			
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0][0].length).to.eql(strss[0][0].length);
@@ -178,7 +178,7 @@ describe('align', () => {
 		const strss = [['John Smith','100'],['Mark','9090'],['Ora','9900']];
 		
 		it('should align center', () => {
-			const aligned = align.alignTable(strss);
+			const aligned = align.table(strss);
 			
 			expect(aligned.length).to.eql(3);
 			expect(aligned[0][0].length).to.eql(strss[0][0].length);

@@ -20,12 +20,12 @@ A tool to align array or table
   + [Align an array](#align-an-array)
   + [Align a table](#align-a-table)
 * [API](#api)
-  + [Align.alignLeft(indent, xs)](#alignalignleftindent-xs)
-  + [Align.alignRight(indent, xs)](#alignalignrightindent-xs)
-  + [Align.alignCenter(indent, xs)](#alignaligncenterindent-xs)
-  + [Align.alignTableL(xss)](#alignaligntablelxss)
-  + [Align.alignTableR(xs)](#alignaligntablerxs)
-  + [Align.alignTable(xs)](#alignaligntablexs)
+  + [Align.left(indent, xs)](#alignalignleftindent-xs)
+  + [Align.right(indent, xs)](#alignalignrightindent-xs)
+  + [Align.center(indent, xs)](#alignaligncenterindent-xs)
+  + [Align.tableL(xss)](#alignaligntablelxss)
+  + [Align.tableR(xs)](#alignaligntablerxs)
+  + [Align.table(xs)](#alignaligntablexs)
 
 ## Installation
 
@@ -70,29 +70,29 @@ const aligned = align.alignTableL(xss);
 
 ## API
 
-### Align.alignLeft(indent, xs)
+### Align.left(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
  Align an array of String to left.
  
-### Align.alignRight(indent, xs)
+### Align.right(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
  Align an array of String to right.
  
-### Align.alignCenter(indent, xs)
+### Align.center(indent, xs)
  * `indent`  <[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)\>
  * `xs`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\>
  Align an array of String to center.
  
-### Align.alignTableL(xss)
+### Align.tableL(xss)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
  Align each column to left.
  
-### Align.alignTableR(xs)
+### Align.tableR(xs)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
   Align each column to right.
  
-### Align.alignTable(xs)
+### Align.table(xs)
  * `xss`  <[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\> 2D array of String
   Align each column to center.

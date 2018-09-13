@@ -70,10 +70,10 @@ const alignTableR = R.compose(R.transpose, R.map(alignRight(0)), R.transpose);
 const alignTable = R.compose(R.transpose, R.map(alignCenter(0)), R.transpose);
 
 module.exports = {
-	alignRight,
-	alignLeft,
-	alignCenter,
-	alignTableL,
-	alignTableR,
-	alignTable
+	right: alignRight,
+	left: alignLeft,
+	center: alignCenter,
+	tableL: alignTableL,
+	tableR: alignTableR,
+	table: alignTable
 };
