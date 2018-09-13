@@ -20,12 +20,12 @@ A tool to align array or table
   + [Align an array](#align-an-array)
   + [Align a table](#align-a-table)
 * [API](#api)
-  + [Align.left(indent, xs)](#alignalignleftindent-xs)
-  + [Align.right(indent, xs)](#alignalignrightindent-xs)
-  + [Align.center(indent, xs)](#alignaligncenterindent-xs)
-  + [Align.tableL(xss)](#alignaligntablelxss)
-  + [Align.tableR(xs)](#alignaligntablerxs)
-  + [Align.table(xs)](#alignaligntablexs)
+  + [Align.left(indent, xs)](#alignleftindent-xs)
+  + [Align.right(indent, xs)](#alignrightindent-xs)
+  + [Align.center(indent, xs)](#aligncenterindent-xs)
+  + [Align.tableL(xss)](#aligntablelxss)
+  + [Align.tableR(xs)](#aligntablerxs)
+  + [Align.table(xs)](#aligntablexs)
 
 ## Installation
 
