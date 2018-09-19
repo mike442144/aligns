@@ -39,7 +39,7 @@ $ npm install aligns
 const align = require('aligns');
 
 const xs = ['Ludwig van Beethoven', 'Beyond', 'Michael Jackson', 'Wolfgang Amadeus Mozart'];
-const aligned = align.alignLeft(0, xs);
+const aligned = align.left(0, xs);
 
 /*
 [ 'Ludwig van Beethoven   ',
@@ -58,7 +58,7 @@ const xss = [
   ['Symphony No.9 in D minor op.125', 'Le nozze di Figaro K.492'],
   ['Symphony No.5 in C minor op.67', 'Serenade No.13 K.525']
 ];
-const aligned = align.alignTableL(xss);
+const aligned = align.tableL(xss);
 
 /*
 [ [ 'Ludwig van Beethoven           ','Wolfgang Amadeus Mozart ' ],
